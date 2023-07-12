@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "elastic_instance" {
-  ami           = "ami-06b09bfacae1453cb" 
+  ami           = "ami-06ca3ca175f37dd66" 
   instance_type = "t2.micro"
   tags = {
       Name = "TF-Instance"
